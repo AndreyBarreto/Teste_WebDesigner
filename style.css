@@ -1,0 +1,29 @@
+body{
+    font-family: Open ;
+}
+#mainHeader{
+    background-color:#422755 ;
+    color: white;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    margin:0px;
+
+    
+}
+h1{
+    padding-top: 140px;
+    padding-bottom: 28px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+#p_MainHeader{
+    padding-bottom: 139px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
