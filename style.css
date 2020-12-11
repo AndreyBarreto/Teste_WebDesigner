@@ -7,6 +7,7 @@ body{
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
     margin:0px;
+    margin-bottom: 56px;
 
     
 }
@@ -18,6 +19,7 @@ h1{
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
+    margin: 0;
 }
 #p_MainHeader{
     padding-bottom: 139px;
@@ -26,4 +28,36 @@ h1{
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+    margin: 0%;
 }
+                /* Navbar*/
+#navBar{
+    margin-right: 180px;
+    margin-left: 179px;
+    justify-content: space-around;
+    background-color:#FEAF3D ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    max-height: 100%;
+
+
+}
+form,select {
+    padding-top: 25px;
+    padding-bottom: 26px;
+    align-content: center;
+}
+
+.input-group-text{
+         padding:0;
+            background-color:#6E4B87;
+            border-radius: 104px;
+            border: none;
+            color:white;
+            font-family: Open Sans;
+            padding-right: 10px;
+            border: top left radius 8px;
+            margin-left: 10px;
+
+        }
