@@ -32,21 +32,21 @@ h1{
 }
                 /* Navbar*/
 #navBar{
-    margin-right: 180px;
-    margin-left: 179px;
+    margin: 56px 180px 72px 179px;
     justify-content: space-around;
     background-color:#FEAF3D ;
     border-radius: 8px;
     display: flex;
     align-items: center;
-    max-height: 100%;
-
-
+    padding-top: 25px;
+    padding-bottom: 26px;
 }
-form,select {
+form{
     padding-top: 25px;
     padding-bottom: 26px;
     align-content: center;
+    margin-left: 108px;
+
 }
 
 .input-group-text{
@@ -61,3 +61,21 @@ form,select {
             margin-left: 10px;
 
         }
+#navBarElement2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+select{
+    border-radius: 8px;
+    padding: 7px 50px 8px 29px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+}
