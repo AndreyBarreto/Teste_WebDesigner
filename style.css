@@ -68,6 +68,7 @@ form{
     font-size: 14px;
     line-height: 19px;
     text-align: center;
+    color: white;
 }
 select{
     border-radius: 8px;
@@ -77,5 +78,20 @@ select{
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
+    margin-left: 18px;
 
+}
+
+
+@media (max-width: 1000px)
+    {
+        #navBar{
+            display: block;
+            margin: 45px 8px 47px 8px;
+            padding:19px 16px 30px 17px;
+            max-width: ;
+            max-height: ;
+        }
+
+    
 }
