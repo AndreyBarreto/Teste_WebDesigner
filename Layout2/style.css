@@ -1,5 +1,6 @@
 body{
     font-family: Open ;
+    text-align: center;
 }
 #mainHeader{
     background-image: linear-gradient(to right bottom, #422755, #391e4a, #301640, #280d36, #20032c);    text-align: center;
@@ -100,77 +101,96 @@ select{
 }
 
 /* Cards*/
-.cardspace{
-    
+
+.card-deck{
+    margin: 0px 175px 82px 184px;
 }
 .card{
-    flex-direction: row;
-    margin: 0px 10px 24px 10px;
+    width: 253px;
+    height: 401px;
+    padding:13px 14px 13px 17px;
+    margin-left: 0px !important;
+    background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 14px;
-    
-
 }
-
-.cardimg{
-    margin: 10px;
+.card:nth-of-type(4){
+    margin-right: 0px;
+}
+.card-img-top{
+    width: 100%;
+    height: 196px;
     object-fit:cover;
    object-position:50% 50%;
-   width: 158.94px;
-   height: 190.64px;
-
+    
 }
-.cardBody{
-    padding: 17px 14px 18px 0px;
-
+.card-body{
+    text-align: left;
+    padding: 0px;
 }
-.cardTitle{
+.card-title{
+    margin-bottom: 5px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
-    
+    margin-top: 4px;
 }
-.cardext{font-family: Open Sans;
+.card-text{
+    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
-    line-height: 15px;
-    height: 62px;
-    width: 147px;
-
+    font-size: 12px;
+    line-height: 16px;
+    width: auto;
+    height: 70px;
 }
-.btn{
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 22px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        width: 155px;
-        height: 30px;
-        color: #422755;
-    
-    }
-.btn:hover{
-        background-color:#422755 ;
-        color: white;
-    }
 .prazo{
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+
 }
 .prazolaranja{
     color: #fa7f2b;
     font-weight: bold;
     font-size: 15px;
+}
+.btn{
+    height: 40px;
+    left: 201px;
+    top: 921px;
+    border: 1px solid #422755;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    padding:0px 18px 0px 17px;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #422755;
+    text-align: center;
+    background-color: white; 
+}
+.btn:hover{
+    background-color:#422755 ;
+    color: white;
+}
+.inclusao{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
 }
 #prazoCurto{
     position: absolute;
@@ -185,69 +205,22 @@ select{
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 15px 0px 0px -5px;
+    margin: 15px 0px 0px -22px;
     padding:5px 12px 8px 17px;
 }
-.btn{
-    margin: 7px 14px 6px 0px;
-    width: 155px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 22px;
-    display: flex;
-    align-items: left;
-    text-align: center;
-    background-color: white;
-    border: 1px solid #422755;
-    box-sizing: border-box;
-    border-radius: 8px;
-
-}
-.inclusao{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 14px;
-}
-@media (min-width: 1300px){
-    .cardspace{
-        display:flex;
-        margin: 0px 175px 0px 184px;
+/* Responsive Cards*/
+@media (max-width: 1150px){
+    .card-deck{
+        display:block;
+        margin: 45px 8px 47px 8px;
     }
-    .card{width: 253px;
-        height: 401px;
-        display: block;
-        text-align: center;
-}
-    .cardimg{
-        height: 196px;
-        width: 200px;
-    }
-    .cardBody{
-        padding: 4px 18px 13px 16px;
-        text-align: left;
-    }
-    .btn{
-        margin: 0px !important;
-        font-family: Open Sans;
-        padding-left:50px;
+    .card{
+        margin-bottom: 24px !important;   
         width: 100%;
     }
-    #prazoCurto{
-        margin: -200px 0px 300px -10px;
-    }
-    .cardext{
-        width: 205px;
-    }
-    .prazo{
-        margin-bottom: 5px;
-    }
 
- 
 }
+
 
 /*Footer*/
 footer{
