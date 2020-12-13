@@ -215,21 +215,10 @@ select{
         margin: 45px 8px 47px 8px;
     }
     .card{
-        width:100%;
-        margin-bottom: 24px !important;    
+        margin-bottom: 24px !important;   
+        width: 100%;
     }
-    .prazoCurto{
-        
-    }
-    .card-img-top{
 
-        
-        
-    }
-    .card-body{
-        
-        
-    }
 }
 
 
