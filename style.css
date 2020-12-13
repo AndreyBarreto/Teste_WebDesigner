@@ -1,14 +1,13 @@
 body{
     font-family: Open ;
+    text-align: center;
 }
 #mainHeader{
-    background-color:#422755 ;
+    background-image: linear-gradient(to right bottom, #422755, #391e4a, #301640, #280d36, #20032c);    text-align: center;
     color: white;
-    text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
     margin:0px;
     margin-bottom: 56px;
-
     
 }
 h1{
@@ -32,10 +31,9 @@ h1{
 }
                 /* Navbar*/
 #navBar{
-    margin: 56px 180px 72px 179px;
-    justify-content: space-around;
-    background-color:#FEAF3D ;
-    border-radius: 8px;
+    margin: 56px 180px 71px 179px;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right bottom, #feaf3d, #fc9831, #fa7f2b, #f6652a, #f0462d);    border-radius: 8px;
     display: flex;
     align-items: center;
     padding-top: 25px;
@@ -50,15 +48,15 @@ form{
 }
 
 .input-group-text{
-         padding:0;
-            background-color:#6E4B87;
-            border-radius: 104px;
-            border: none;
-            color:white;
-            font-family: Open Sans;
-            padding-right: 10px;
-            border: top left radius 8px;
-            margin-left: 10px;
+        padding:0;
+    background-image: linear-gradient(to right bottom, #422755, #391e4a, #301640, #280d36, #20032c);    text-align: center;
+    border-radius: 104px;
+    border: none;
+    color:white;
+    font-family: Open Sans;
+    padding-right: 10px;
+     border: top left radius 8px;
+    margin-left: 10px;
 
         }
 #navBarElement2{
@@ -82,16 +80,130 @@ select{
 
 }
 
-
-@media (max-width: 1000px)
+@media (max-width: 900px)
     {
         #navBar{
             display: block;
             margin: 45px 8px 47px 8px;
             padding:19px 16px 30px 17px;
-            max-width: ;
-            max-height: ;
+            max-width;
+            max-height:;
+            
         }
+        #navBarElement2{
+            margin-top: 19px;
+            
+        }
+        
 
     
+}
+
+/* Cards*/
+
+.card-deck{
+    margin: 0px 175px 82px 184px;
+}
+.card{
+    width: 253px;
+    height: 401px;
+    padding:13px 14px 13px 17px;
+    margin-left: 0px !important;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 14px;
+}
+.card:nth-of-type(4){
+    margin-right: 0px;
+}
+.card-img-top{
+    width: 100%;
+    height: 196px;
+    object-fit:cover;
+   object-position:50% 50%;
+    
+}
+.card-body{
+    text-align: left;
+    padding: 0px;
+}
+.card-title{
+    margin-bottom: 5px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 4px;
+}
+.card-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    width: auto;
+    height: 70px;
+}
+.prazo{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.prazolaranja{
+    color: #fa7f2b;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn{
+    height: 40px;
+    left: 201px;
+    top: 921px;
+    border: 1px solid #422755;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    padding:0px 18px 0px 17px;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #422755;
+    text-align: center;
+    background-color: white; 
+}
+.btn:hover{
+    background-color:#422755 ;
+    color: white;
+}
+.inclusao{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+}
+#prazoCurto{
+    position: absolute;
+    background: #422755;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0px 0px -30px;
+    padding:5px 12px 8px 17px;
 }

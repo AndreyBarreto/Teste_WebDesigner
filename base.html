@@ -22,6 +22,9 @@
     />
     <!--Linking Css-->
     <link rel="stylesheet" href="style.css" />
+    <!--Linking Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     </head>
 
 
@@ -52,59 +55,50 @@
                     </option>
                     </select></div>
             </header>
-            
-            <section>
-                <div>
-                    <div>
-                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
-                        <div>Prazo curto!</div>
-                    </div>
-                    <div>
-                        <h3>Nome da tarefa</h3>
-                        <p>Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-                        <div>Prazo: 00/00/00</div>
-                    </div>
-                    <button>Concluir</button>
-                    <div>Data de inclusão: há 2 semanas</div>
+<!--Cards-->
+            <section class="card-deck">
+                <div class="card">
+                  <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="card-img-top">
+                  <div id="prazoCurto">Prazo curto!</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Nome da tarefa</h5>
+                    <p class="card-text">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+                    <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+                    <button class="btn">Concluir</button>
+                    <div class="inclusao">Data de inclusão: há 2 semanas</div>
+                  </div>
+                        
                 </div>
-                <div>
-                    <div>
-                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
+                <div class="card">
+                    <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Nome da tarefa</h5>
+                      <p class="card-text">Descrição da tarefa, o que deve ser feito.</p>
+                      <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+                      <button class="btn">Concluir</button>
+                      <div class="inclusao">Data de inclusão: há 2 semanas</div>
                     </div>
-                    <div>
-                        <h3>Nome da tarefa</h3>
-                        <p>Descrição da tarefa, o que deve ser feito.</p>
-                        <div>Prazo: 00/00/00</div>
+                  </div><div class="card">
+                    <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Nome da tarefa</h5>
+                      <p class="card-text">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+                      <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+                      <button class="btn">Concluir</button>
+                      <div class="inclusao">Data de inclusão: há 2 semanas</div>
                     </div>
-                    <button>Concluir</button>
-                    <div>Data de inclusão: há 2 semanas</div>
-                </div>
-                <div>
-                    <div>
-                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
+                  </div><div class="card">
+                    <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Nome da tarefa</h5>
+                      <p class="card-text">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+                      <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+                      <button class="btn">Concluir</button>
+                      <div class="inclusao">Data de inclusão: há 2 semanas</div>
                     </div>
-                    <div>
-                        <h3>Nome da tarefa</h3>
-                        <p>Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-                        <div>Prazo: 00/00/00</div>
-                    </div>
-                    <button>Concluir</button>
-                    <div>Data de inclusão: há 2 semanas</div>
-                </div>
-                <div>
-                    <div>
-                        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg">
-                    </div>
-                    <div>
-                        <h3>Nome da tarefa</h3>
-                        <p>Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-                    </div>
-                    <button>Concluir</button>
-                    <div>Data de inclusão: há 2 semanas</div>
-                </div>
-            </section>
-
+                  </div>
         </section>
+
 
         <footer>
             <img src="https://www.linx.com.br/app/themes/linx/crystals/dist/assets/static/logo.png">
