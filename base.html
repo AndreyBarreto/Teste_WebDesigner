@@ -9,108 +9,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <head>
-        <meta charset="utf-8"/>
-        <title>Teste Linx</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Boostrap add-->
-        <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <!--Linking Css-->
-    <link rel="stylesheet" href="style.css" />
-    <!--Linking Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Teste Linx</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Boostrap add-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <!--Linking Css-->
+  <link rel="stylesheet" href="style.css" />
+  <!--Linking Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+</head>
 
 
-    <body>
-        <header id="mainHeader">
-            <h1>
-                Tarefas à fazer
-            </h1>
-            <p id="p_MainHeader">
-                Adicione e complete tarefas para organizar melhor a sua semana. :)
-            </p>
-        </header>
-            
-
-        <section>
-            <header id="navBar">
-                    <form class="input-group-text" id="navBarElement1">
-                        <input type="text" class="form-control" placeholder="Busque tarefas" id="searchInput">
-                        <button class="input-group-text" id="btnSearch">Buscar</button>
-                    </form>
-                    <div id="navBarElement2">Organizar por:
-                    <select id="select">
-                    <option value="relevance">
-                    Prazo
-                    </option>
-                    <option value="ascPrice">
-                    Data de inclusão
-                    </option>
-                    </select></div>
-            </header>
-<!--Cards-->
-            <section class="cardspace">
-                <div class="card">
-                  <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
-                  <div id="prazoCurto">Prazo curto!</div>
-                  <div class="cardBody">
-                    <h5 class="cardTitle">Nome da tarefa</h5>
-                    <p class="cardext">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-                    <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
-                    <button class="btn">Concluir</button>
-                    <div class="inclusao">Data de inclusão: há 2 semanas</div>
-                  </div>
-                        
-                </div>
-                <div class="card">
-                  <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
-                  <div class="cardBody">
-                    <h5 class="cardTitle">Nome da tarefa</h5>
-                    <p class="cardext">Descrição da tarefa, o que deve ser feito.</p>
-                    <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
-                    <button class="btn">Concluir</button>
-                    <div class="inclusao">Data de inclusão: há 2 semanas</div>
-                    </div>
-                  </div><div class="card">
-                    <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
-                  <div class="cardBody">
-                    <h5 class="cardTitle">Nome da tarefa</h5>
-                    <p class="cardext">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-                    <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
-                    <button class="btn">Concluir</button>
-                    <div class="inclusao">Data de inclusão: há 2 semanas</div>
-                    </div>
-                  </div><div class="card">
-                    <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
-                  <div class="cardBody">
-                    <h5 class="cardTitle">Nome da tarefa</h5>
-                    <p class="cardext">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-                    <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
-                    <button class="btn">Concluir</button>
-                    <div class="inclusao">Data de inclusão: há 2 semanas</div>
-                    </div>
-                  </div>
-        </section>
+<body>
+  <header id="mainHeader">
+    <h1>
+      Tarefas à fazer
+    </h1>
+    <p id="p_MainHeader">
+      Adicione e complete tarefas para organizar melhor a sua semana. :)
+    </p>
+  </header>
 
 
-        <footer>
-            <div class="logoeDescLinx"><img  class="logoLinx"src="https://www.linx.com.br/app/themes/linx/crystals/dist/assets/static/logo.png">
-            <div class="descLinx"><p>
-            A Linx é uma empresa brasileira especialista em tecnologia para o varejo. Líder no mercado de software de gestão, com 45,6% de market share do mercado varejista, conforme atesta o IDC.</p>
-            <p>
-            Toda a expertise da Linx na jornada de compra é transformada em insights fundamentais para atingir o que os varejistas mais esperam: fidelizar seus consumidores e atingir resultados concretos e relevantes.
-            </p>
-            <p>Com capital aberto na B3 desde 2013, a Linx também se tornou a primeira empresa brasileira de software com capital aberto na NYSE, em 2019. A empresa possui mais de 3,5 mil colaboradores distribuídos entre sua sede em São Paulo, 15 filiais pelo Brasil e 5 países da América. Para saber mais, acesse linx.com.br/imprensa.
-            </p></div></div>
-            <pre class="footerfinal">Testando suas habilidades em HTML e CSS.
+  <section>
+    <header id="navBar">
+      <form class="input-group-text" id="navBarElement1">
+        <input type="text" class="form-control" placeholder="Busque tarefas" id="searchInput">
+        <button class="input-group-text" id="btnSearch">Buscar</button>
+      </form>
+      <div id="navBarElement2">Organizar por:
+        <select id="select">
+          <option value="relevance">
+            Prazo
+          </option>
+          <option value="ascPrice">
+            Data de inclusão
+          </option>
+        </select>
+      </div>
+    </header>
+    <!--Cards-->
+    <section class="cardspace">
+      <div class="card">
+        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
+        <div id="prazoCurto">Prazo curto!</div>
+        <div class="cardBody">
+          <h5 class="cardTitle">Nome da tarefa</h5>
+          <p class="cardext">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que
+            se trata.</p>
+          <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+          <button class="btn">Concluir</button>
+          <div class="inclusao">Data de inclusão: há 2 semanas</div>
+        </div>
+
+      </div>
+      <div class="card">
+        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
+        <div class="cardBody">
+          <h5 class="cardTitle">Nome da tarefa</h5>
+          <p class="cardext">Descrição da tarefa, o que deve ser feito.</p>
+          <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+          <button class="btn">Concluir</button>
+          <div class="inclusao">Data de inclusão: há 2 semanas</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
+        <div class="cardBody">
+          <h5 class="cardTitle">Nome da tarefa</h5>
+          <p class="cardext">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que
+            se trata.</p>
+          <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+          <button class="btn">Concluir</button>
+          <div class="inclusao">Data de inclusão: há 2 semanas</div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg" class="cardimg">
+        <div class="cardBody">
+          <h5 class="cardTitle">Nome da tarefa</h5>
+          <p class="cardext">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que
+            se trata.</p>
+          <div class="prazo">Prazo: <span class="prazolaranja">00/00</span></div>
+          <button class="btn">Concluir</button>
+          <div class="inclusao">Data de inclusão: há 2 semanas</div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="logoeDescLinx"><img class="logoLinx"
+          src="https://www.linx.com.br/app/themes/linx/crystals/dist/assets/static/logo.png">
+        <div class="descLinx">
+          <p>
+            A Linx é uma empresa brasileira especialista em tecnologia para o varejo. Líder no mercado de software de
+            gestão, com 45,6% de market share do mercado varejista, conforme atesta o IDC.</p>
+          <p>
+            Toda a expertise da Linx na jornada de compra é transformada em insights fundamentais para atingir o que os
+            varejistas mais esperam: fidelizar seus consumidores e atingir resultados concretos e relevantes.
+          </p>
+          <p>Com capital aberto na B3 desde 2013, a Linx também se tornou a primeira empresa brasileira de software com
+            capital aberto na NYSE, em 2019. A empresa possui mais de 3,5 mil colaboradores distribuídos entre sua sede
+            em São Paulo, 15 filiais pelo Brasil e 5 países da América. Para saber mais, acesse linx.com.br/imprensa.
+          </p>
+        </div>
+      </div>
+      <pre class="footerfinal">Testando suas habilidades em HTML e CSS.
 Linx Impulse 2020</pre>
-        </footer>
-    </body>
+    </footer>
+</body>
+
 </html>
