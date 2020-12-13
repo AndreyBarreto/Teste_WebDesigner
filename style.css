@@ -80,7 +80,7 @@ select{
 
 }
 
-@media (max-width: 900px)
+@media (max-width: 1025px)
     {
         #navBar{
             display: block;
@@ -206,4 +206,83 @@ select{
     text-align: center;
     margin: 15px 0px 0px -30px;
     padding:5px 12px 8px 17px;
+}
+/* Responsive Cards*/
+@media (max-width: 1150px){
+    .card-deck{
+        display:block;
+        margin: 45px 8px 47px 8px;
+    }
+    .card{
+        width:100%;
+        margin-bottom: 24px !important;      
+    }
+    .card-img-top{
+
+
+    
+        
+    }
+    .card-body{
+        
+        
+    }
+}
+
+
+/*Footer*/
+footer{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #414141;
+    
+}
+.logoLinx{
+    margin:0px 101px 0px 102px ;
+    width: 157px;
+    height: 94px;
+}
+.descLinx{
+    margin: 40px 25px 40px 26px;
+    
+
+}
+pre{
+    padding:47px 54px 47px 53px;
+    margin: 0%;
+    justify-content: center;
+    background: #422755;
+    width: 100%;
+    height: 126px;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+@media (min-width: 1200px){
+    .logoeDescLinx{
+        display: flex;
+    }
+    .logoLinx{
+        margin: 86px 54px 97px 242px;
+        width: 234px;
+    height: 137px;
+    }
+    .descLinx{
+        margin: 82px 211px 48px 0px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+
+    }
+
 }
