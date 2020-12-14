@@ -1,5 +1,7 @@
 body{
     font-family: Open ;
+    min-height: 100vh;
+    position: relative;
 }
 #mainHeader{
     background-image: linear-gradient(to right bottom, #422755, #391e4a, #301640, #280d36, #20032c);    text-align: center;
@@ -101,6 +103,10 @@ select{
 
 /* Cards*/
 .cardspace{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 440px;
     
 }
 .card{
@@ -109,6 +115,8 @@ select{
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 14px;
+    width: 340px;
+    height: 210px;
     
 
 }
@@ -212,12 +220,22 @@ select{
     font-size: 10px;
     line-height: 14px;
 }
-@media (min-width: 1300px){
+@media (min-width: 1000px){
     .cardspace{
         display:flex;
         margin: 0px 175px 0px 184px;
     }
-    .card{width: 253px;
+    .card:nth-of-type(4){
+        margin-right: 0px;
+        
+
+        
+    }
+    .card:nth-of-type(1){
+        margin-left: 0px;}
+
+        .card{
+        width: 253px;
         height: 401px;
         display: block;
         text-align: center;
@@ -251,6 +269,7 @@ select{
 
 /*Footer*/
 footer{
+    
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -258,6 +277,10 @@ footer{
     line-height: 16px;
     text-align: center;
     color: #414141;
+    position: absolute;
+    bottom: 0;
+    max-height: 440px;
+    width: 100%;
     
 }
 .logoLinx{
@@ -305,3 +328,4 @@ pre{
     }
 
 }
+
